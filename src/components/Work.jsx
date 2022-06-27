@@ -42,7 +42,7 @@ const Work = () => {
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Weather Application
+                                Weather Application.
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://weather-app-react1.netlify.app/">
