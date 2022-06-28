@@ -22,13 +22,13 @@ const Work = () => {
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                                Face Detection 
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://face-detectionz.netlify.app/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/yakir1992/Face-Detection">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -42,7 +42,7 @@ const Work = () => {
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Weather Application.
+                                Weather Application
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://weather-app-react1.netlify.app/">
