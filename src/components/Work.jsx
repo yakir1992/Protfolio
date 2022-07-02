@@ -2,6 +2,8 @@ import React from 'react'
 import workImg from '../assets/workImg.jpeg'
 import realestate from '../assets/realestate.jpg'
 import sunset from '../assets/sunset.jpg'
+import faceRecognition from '../assets/face-recognition.jpg'
+import netflix from '../assets/netflix.jpg'
 
 const Work = () => {
     return (
@@ -18,17 +20,17 @@ const Work = () => {
                     className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
                     {/* Grid Item */}
-                    <div style={{ backgroundImage: `url(${workImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style={{ backgroundImage: `url(${faceRecognition})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                                Face Detection.
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://face-detectionz.netlify.app/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/yakir1992/Face-Detection">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -94,17 +96,17 @@ const Work = () => {
                         </div>
                     </div>
                     {/* Grid Item */}
-                    <div style={{ backgroundImage: `url(${workImg})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style={{ backgroundImage: `url(${netflix})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                                Netflix Firebase
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://beat-netflix-clone.vercel.app/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/yakir1992/netflix-firebase-react-project">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
 
