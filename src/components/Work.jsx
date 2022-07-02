@@ -24,7 +24,7 @@ const Work = () => {
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Face Detection.
+                                Face Detection
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://face-detectionz.netlify.app/">
@@ -63,7 +63,7 @@ const Work = () => {
                         {/* Hover effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Netflix Firebase.
+                                Netflix Firebase
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://beat-netflix-clone.vercel.app/">
